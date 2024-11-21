@@ -492,7 +492,7 @@ enforcer:
     # Add the secrets in Key Value pair as environment variable
 
   # Enter the enforcer token in "clear-text" format without quotes generated from the Console UI
-  enforcerToken: enforcer-token
+  enforcerToken: 'YmU3NWExMGItZTdiOS00NTA3LThkMDAtMzZjZDdkNmE0Mjdm'
   expressMode: false
   enforcerTokenSecretName: null
   enforcerTokenSecretKey: null
