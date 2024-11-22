@@ -148,7 +148,7 @@ aquaSecret:
   create: true
   name: "aqua-kube-enforcer-token"
   # Enter the enforcer token in "clear-text" format without quotes generated from the Console UI, if `aquaSecret.create: true`
-  kubeEnforcerToken: "be75a10b-e7b9-4507-8d00-36cd7d6a427f"
+  kubeEnforcerToken: be75a10b-e7b9-4507-8d00-36cd7d6a427f
 
 clusterRole:
   name: "aqua-kube-enforcer"
@@ -492,7 +492,7 @@ enforcer:
     # Add the secrets in Key Value pair as environment variable
 
   # Enter the enforcer token in "clear-text" format without quotes generated from the Console UI
-  enforcerToken: 'ebe10ea2-0b4e-4b02-8cf7-6bf10497b12f'
+  enforcerToken: be75a10b-e7b9-4507-8d00-36cd7d6a427f
   expressMode: false
   enforcerTokenSecretName: null
   enforcerTokenSecretKey: null
