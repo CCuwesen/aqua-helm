@@ -16,7 +16,7 @@ global:
   platform: ""
   dnsNdots:
   enforcer:
-    enabled: false
+    enabled: true
   gateway:
     # change address to gateway endpoint. For Saas use the hostname containing `-gw`
     # from your onboarding email and switch port to 443
@@ -208,7 +208,7 @@ windowsEnforcer:
     enable: false
 
   # Enter the enforcer token in "clear-text" format without quotes generated from the Console UI
-  enforcerToken: enforcer-token
+  enforcerToken: "ebe10ea2-0b4e-4b02-8cf7-6bf10497b12f"
 
   # Use these values to reference a pre-existing secret for the enforcer token.
   # Setting these values will make the chart ignore the content of enforcerToken
