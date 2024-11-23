@@ -4,8 +4,8 @@ imageCredentials:
   name: aqua-registry-secret # example
   repositoryUriPrefix: "registry.aquasec.com" # for dockerhub - "docker.io"
   registry: "registry.aquasec.com" #REQUIRED only if create is true, for dockerhub - "index.docker.io/v1/"
-  username: 'H0FwOsLFI7yyODGJ0ERRnL'
-  password: 'ukqRQIbEJua3E3CT3Ec01wkH7I9YcSaB4JJ'
+  username: julius.lehmann@computacenter.com
+  password: 9GmNIkV071rfqNAQ$!*?&
 
 rbac:
   enabled: true
