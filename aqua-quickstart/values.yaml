@@ -52,7 +52,7 @@ ke:
   environment: aws # aws, acs, onprem
   aqua_enable_cache: yes
   aqua_cache_expiration_period: 60
-  clusterName: "Default-cluster-name"   # Display a custom cluster name in the infrastructure tab of Aqua Enterprise
+  clusterName: "Default"   # Display a custom cluster name in the infrastructure tab of Aqua Enterprise
   logicalName: ""
   logLevel: ""
   securityContext:
